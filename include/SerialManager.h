@@ -7,7 +7,7 @@ public:
   SerialManager(Logic &logic);
   void setup();
   void handle();
-  void print(char *fmt, ...);
+  void print(const char *fmt, ...);
   void printHelp();
 
 private:
